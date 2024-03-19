@@ -26,5 +26,7 @@ public class Aplication {
         System.out.println("P1: x=" + p1.getX() + ", y=" + p1.getY() + ", z=" + p1.getZ() + ".");
         System.out.println("P2: x=" + p2.getX() + ", y=" + p2.getY() + ", z=" + p2.getZ() + ".");
         System.out.println("\nA distancia entre os dois pontos sao " + p1.dist_dois_pontos(p2));
+
+        sc.close();
     }
 }

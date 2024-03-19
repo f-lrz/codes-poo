@@ -1,7 +1,8 @@
 {
   "java.project.sourcePaths": [
     "auladeconstrutor/src",
-    "auladeconstrutor"
+    "auladeconstrutor",
+    "ExercicioJava/src/exerponto"
   ],
   "C_Cpp_Runner.cCompilerPath": "gcc",
   "C_Cpp_Runner.cppCompilerPath": "g++",
