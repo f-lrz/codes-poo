@@ -1,7 +1,5 @@
 package exerPessoaVeiculo;
 
-import javax.print.attribute.SupportedValuesAttribute;
-
 public class Pessoa {
 
     private String nome;

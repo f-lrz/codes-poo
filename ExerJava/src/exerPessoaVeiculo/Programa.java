@@ -1,8 +1,7 @@
 package exerPessoaVeiculo;
 
-import java.util.Scanner;
 
-public class Aplication {
+public class Programa {
     public static void main(String[] args) throws Exception {
         Pessoa p1 = new Pessoa("Filipe", 2004);
         Pessoa p2 = new Pessoa("Sophia", 2008);
@@ -12,7 +11,7 @@ public class Aplication {
 
         p1.ligaVeic(v1);
         p1.aceleraVeic(v1, 20);
-        p1.desacelera(v1, 10);
+        p1.desaceleraVeic(v1, 10);
 
     }
 }

@@ -56,7 +56,7 @@ public class Veiculo {
         System.out.println("Preço: R$" + v.peço);
         System.out.println("Ano: " + v.ano);
         System.out.println("Veloc: " + v.veloc + "km");
-        if (v.status = 1) System.out.println("Status: Ligado");
+        if (v.status == 1) System.out.println("Status: Ligado");
         else System.out.println("Status: Desligado");
     }
     
