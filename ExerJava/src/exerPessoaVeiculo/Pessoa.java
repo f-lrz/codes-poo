@@ -1,4 +1,4 @@
-package exerPessoaVeiculo;
+import exerPessoaVeiculo.*;
 
 public class Pessoa {
 
