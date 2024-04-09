@@ -1,3 +1,4 @@
+package entidades;
 
 public class Veiculo {
 
@@ -50,13 +51,14 @@ public class Veiculo {
         this.status = status;
     }
 
-    public void imprime(Veiculo v){
-        System.out.println("Placa: " + v.placa);
-        System.out.println("Preço: R$" + v.preço);
-        System.out.println("Ano: " + v.ano);
-        System.out.println("Veloc: " + v.veloc + "km");
-        if (v.status == 1) System.out.println("Status: Ligado");
+    public void imprime(){
+        System.out.println("Placa: " + placa);
+        System.out.println("Preço: R$" + preço);
+        System.out.println("Ano: " + ano);
+        System.out.println("Veloc: " + veloc + "km");
+        if (status == 1) System.out.println("Status: Ligado");
         else System.out.println("Status: Desligado");
+        System.out.println();
     }
     
 }

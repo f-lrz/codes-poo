@@ -1,4 +1,6 @@
-import exerPessoaVeiculo.*;
+package entidades;
+
+//import entidades.Veiculo;
 
 public class Pessoa {
 
@@ -48,18 +50,18 @@ public class Pessoa {
     public void aceleraVeic(Veiculo v, int aumento){
         int nv;
         System.out.println("Nome da pessoa: " + nome + "\n");
-        nv = v.getVeloc(v) + aumento;
+        nv = v.getVeloc() + aumento;
         v.setVeloc(nv);
         v.imprime();
     }
     public void desaceleraVeic(Veiculo v, int reducao){
         int nv;
-        nv = v.getVeloc(v) - reducao;
-        if(getVeloc(v) > 0){
+        nv = v.getVeloc() - reducao;
+        if(v.getVeloc() == 0){
             System.out.println("O veiculo ja esta parado.");
             return;
         }
-        else if(nv > 0){
+        else if(nv < 0){
             System.out.println("Nao foi possivel desacelerar o veiculo");
             return;
         }

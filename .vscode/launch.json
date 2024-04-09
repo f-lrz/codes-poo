@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Programa",
+      "request": "launch",
+      "mainClass": "aplicacao.Programa",
+      "projectName": "codes-poo_6a6a4d96"
+    },
+    {
+      "type": "java",
       "name": "Aplication",
       "request": "launch",
       "mainClass": "Aplication",
