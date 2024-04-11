@@ -28,7 +28,7 @@ public class Imovel {
 		p[v].setIdade(idade);
 	}
 	
-	public Imovel(int numero, double preco, String nome1, String nome2, int idade1, int idade2){
+	public Imovel(int numero, double preco, String nome1, String nome2, int idade1, int idade2/*, int np */){
 		setNumero(numero);
 		setPreco(preco);
 		p = new Proprietario[2];
