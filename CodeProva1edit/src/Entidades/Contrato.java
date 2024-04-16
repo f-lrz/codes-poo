@@ -35,17 +35,17 @@ public class Contrato {
 		this.valorcorretagem = valorcorretagem;
 	}
 	
-	public void calculacorretagem(double precoI) {
+	private void calculacorretagem(double precoI) {
 		if(ano >= 2022 || precoI >= 1000000) valorcorretagem = precoI * 0.05;
 		else valorcorretagem = precoI * 0.1;
 	}
 	
 	
-	public Contrato(int numeroC, int ano, int numeroI, double preco, String nome1, int idade1, String nome2, int idade2) {
+	public Contrato(int numeroC, int ano, int numeroI, double preco, int np, String[] nmp, int[] iddp) {
 		numero = numeroC;
 		this.ano = ano;
 		calculacorretagem(preco);
-		i = new Imovel(numeroI, preco, nome1, nome2, idade1, idade2);
+		i = new Imovel(numeroI, preco, np, nmp, iddp);
 	}
 	
 	/*public Contrato(int numeroC, int numeroI, double preco, String nome1, int idade1, String nome2, int idade2) {

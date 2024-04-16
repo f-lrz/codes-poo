@@ -28,11 +28,16 @@ public class Imovel {
 		p[v].setIdade(idade);
 	}
 	
-	public Imovel(int numero, double preco, String nome1, String nome2, int idade1, int idade2/*, int np */){
+	public Imovel(int numero, double preco, int np, String[] nmp, int[] iddp){
 		setNumero(numero);
 		setPreco(preco);
-		p = new Proprietario[2];
-		p[0] = new Proprietario(nome1, idade1);
-		p[1] = new Proprietario(nome2, idade2);
+		p = new Proprietario[np];
+		String nm;
+		int idd;
+		for(int i = 0; i < np; i++){
+			nm = nmp[i];
+			idd = iddp[i];
+			p[i] = new Proprietario(nm, idd);
+		}
 	}
 }

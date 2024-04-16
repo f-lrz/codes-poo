@@ -1,4 +1,4 @@
-package exerFigura.entidades;
+package exerFigura;
 
 public enum Tipofigura {
 	Retângulo,

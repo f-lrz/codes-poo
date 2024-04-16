@@ -52,7 +52,7 @@ public class Programa {
                 iddp[np] = idadep;
             }
 
-            //Contrato c[i] = new Contrato(nc, ano, ni, preco, np, nmp, iddp);
+            c[i] = new Contrato(nc, ano, ni, preco, np, nmp, iddp);
 
         }
 
@@ -60,10 +60,11 @@ public class Programa {
 		//Contrato c2 = new Contrato(456, 2022, 222, 1000000,/* 2, */ "Jose", 29, "Marta", 24);
 		//Contrato c3 = new Contrato(789, 333, 1300000, /*2, */"Pedro", 43, "Rosane", 41);
 		
-		//c1.imprimeContrato();
-		//c2.imprimeContrato();
-		//c3.imprimeContrato();
-
+		for(int i = 0; i < quantsc; i++){
+            c[i].imprimeContrato();
+            System.out.println();
+        }
+        
         sc.close();
 	}
 }
