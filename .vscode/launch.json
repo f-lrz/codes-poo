@@ -5,6 +5,13 @@
       "type": "java",
       "name": "Programa",
       "request": "launch",
+      "mainClass": "exerListObj.Programa",
+      "projectName": "ExerJava"
+    },
+    {
+      "type": "java",
+      "name": "Programa",
+      "request": "launch",
       "mainClass": "Programa",
       "projectName": "codes-poo_69c4af57"
     },
