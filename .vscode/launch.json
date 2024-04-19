@@ -5,6 +5,13 @@
       "type": "java",
       "name": "Programa",
       "request": "launch",
+      "mainClass": "Aplicacao.Programa",
+      "projectName": "CodeProva1edit"
+    },
+    {
+      "type": "java",
+      "name": "Programa",
+      "request": "launch",
       "mainClass": "exerListObj.Programa",
       "projectName": "ExerJava"
     },

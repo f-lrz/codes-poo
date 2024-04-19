@@ -6,25 +6,25 @@ import java.util.Scanner;
 public class Programa {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int quantsc;
+        int qtsc;
         Contrato[] c;
 
         System.out.println("Informe o numero de contratos desejados:");
-        quantsc = sc.nextInt();
-        c = new Contrato[quantsc];
+        qtsc = sc.nextInt();
+        c = new Contrato[qtsc];
 
-        for(int i = 0; i < quantsc; i++){
+        for(int i = 0; i < qtsc; i++){
             
             int nc;
             System.out.println("Informe o numero do contrato:");
             nc = sc.nextInt();
 
-            String anosn;
+            char anosn;
             System.out.println("Deseja informar o ano? s/n");
-            anosn = sc.next();
+            anosn = sc.next().charAt(0);
 
             int ano;
-            if(anosn == "s") ano = sc.nextInt();
+            if(anosn == 's') ano = sc.nextInt();
             else ano = 2024;
 
             int ni;
@@ -41,15 +41,16 @@ public class Programa {
             
             String nomep;
             int idadep;
-            String nmp[];
-            int iddp[];
+            
+            String[] nmp = new String[np];
+            int[] iddp = new int[np];
+            
             for(int j = 0; j < np; j++){
-                System.out.println("Informe o nome do proprietario " + j+1 + ":");
+                System.out.println("Informe o nome do proprietario " + j+1 + " e logo apos, sua idade:");
                 nomep = sc.nextLine();
-                System.out.println("Informe a idade do proprietario " + j+1 +":");
                 idadep = sc.nextInt();
-                nmp[np] = nomep;
-                iddp[np] = idadep;
+                nmp[j] = nomep;
+                iddp[j] = idadep;
             }
 
             c[i] = new Contrato(nc, ano, ni, preco, np, nmp, iddp);
@@ -60,7 +61,7 @@ public class Programa {
 		//Contrato c2 = new Contrato(456, 2022, 222, 1000000,/* 2, */ "Jose", 29, "Marta", 24);
 		//Contrato c3 = new Contrato(789, 333, 1300000, /*2, */"Pedro", 43, "Rosane", 41);
 		
-		for(int i = 0; i < quantsc; i++){
+		for(int i = 0; i < qtsc; i++){
             c[i].imprimeContrato();
             System.out.println();
         }
