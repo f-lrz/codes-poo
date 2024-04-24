@@ -64,5 +64,7 @@ public class Contrato {
 		System.out.println("Nome e idade do proprietario 1: " + i.getP(0).getNome() + ", " + i.getP(0).getIdade());
 		System.out.println("Nome e idade do proprietario 2: " + i.getP(1).getNome() + ", " + i.getP(1).getIdade());
 		System.out.println();
+		System.out.println();
+		System.out.println();
 	}
 }

@@ -47,9 +47,9 @@ public class Programa {
             
             for(int j = 0; j < np; j++){
                 System.out.println("Informe o nome do proprietario " + j+1 + " e logo apos, sua idade:");
-                nomep = sc.nextLine();
+                nomep = sc.next();
+                nmp[j] = nomep + " ";
                 idadep = sc.nextInt();
-                nmp[j] = nomep;
                 iddp[j] = idadep;
             }
 
