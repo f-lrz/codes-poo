@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "App",
+      "request": "launch",
+      "mainClass": "App",
+      "projectName": "codes-poo_8157ad2f"
+    },
+    {
+      "type": "java",
       "name": "Programa",
       "request": "launch",
       "mainClass": "Aplicacao.Programa",
@@ -57,8 +64,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/Teste/Documents/GitHub/codes-poo",
-      "program": "c:/Users/Teste/Documents/GitHub/codes-poo/build/Debug/outDebug",
+      "cwd": "c:/Users/Teste/Documents/GitHub/codes-poo/CodesInC",
+      "program": "c:/Users/Teste/Documents/GitHub/codes-poo/CodesInC/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

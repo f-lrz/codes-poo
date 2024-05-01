@@ -2,8 +2,7 @@
   "java.project.sourcePaths": [
     "auladeconstrutor/src",
     "auladeconstrutor",
-    "ExerJava/src/exerPessoaVeiculo",
-    "CodeProva1edit/src/Aplicacao"
+    "ExerBEECROWD/src"
   ],
   "C_Cpp_Runner.cCompilerPath": "gcc",
   "C_Cpp_Runner.cppCompilerPath": "g++",
