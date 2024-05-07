@@ -6,10 +6,10 @@ public class Aluno extends Pessoa {
     private double mensalidade;
     private double desconto;
 
-    public Aluno(String nome, int anodenasc, double mensalidade, double desconto){
-        super(nome, anodenasc);
+    public Aluno(String nome, LocalDate datadenasc, double mensalidade, double desconto){
+        super(nome, datadenasc);
         setMensalidade(mensalidade);
-        setSalario(desconto);
+        setDesconto(desconto);
     }
 
     public double getMensalidade(){
@@ -21,7 +21,11 @@ public class Aluno extends Pessoa {
     public double getDesconto(){
         return desconto;
     }
-    public void setSalario(double desconto){
+    public void setDesconto(double desconto){
         this.desconto = desconto;
     }
+
+    public double calculaPagamento() {
+		return getMensalidade() - getDesconto();
+	}
 }

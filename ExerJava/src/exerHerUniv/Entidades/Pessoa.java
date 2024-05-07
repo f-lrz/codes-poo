@@ -32,7 +32,7 @@ public class Pessoa {
         this.idade = idade;
     }
 
-    private void calcIdade(){
+    public void calcIdade(){
         LocalDate agora = LocalDate.now();
         setIdade(agora.getYear() - getDatadenasc().getYear());
     }

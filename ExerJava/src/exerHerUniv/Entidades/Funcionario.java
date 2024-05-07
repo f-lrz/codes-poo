@@ -3,29 +3,29 @@ package exerHerUniv.Entidades;
 import java.time.LocalDate;
 
 public class Funcionario extends Pessoa{
-    private double valorhora;
-    private int qntehoras;
+    private double valorHora;
+    private int qnteHoras;
 
-    public Funcionario(String nome, int anodenasc, double valorhora, int qntehoras){
-        super(nome, anodenasc);
-        setValorhora(valorhora);
-        setQntehoras(qntehoras);
+    public Funcionario(String nome, LocalDate datadenasc, double valorHora, int qnteHoras){
+        super(nome, datadenasc);
+        setValorHora(valorHora);
+        setQnteHoras(qnteHoras);
     }
 
-    public double getValorhora(){
-        return valorhora;
+    public double getValorHora(){
+        return valorHora;
     }
-    public void setValorhora(double valorhora){
-        this.valorhora = valorhora;
+    public void setValorHora(double valorHora){
+        this.valorHora = valorHora;
     }
-    public int getQntehoras(){
-        return qntehoras;
+    public int getQnteHoras(){
+        return qnteHoras;
     }
-    public void setQntehoras(int qntehoras){
-        this.qntehoras = qntehoras;
+    public void setQnteHoras(int qnteHoras){
+        this.qnteHoras = qnteHoras;
     }
 
     public double calcSalario(){
-        return getValorhora() * getQntehoras();
+        return getValorHora() * getQnteHoras();
     }
 }
