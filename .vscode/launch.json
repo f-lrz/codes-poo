@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Aplicacao",
+      "request": "launch",
+      "mainClass": "exerHerAni.Programa.Aplicacao",
+      "projectName": "ExerJava"
+    },
+    {
+      "type": "java",
       "name": "Programa",
       "request": "launch",
       "mainClass": "exerHerUniv.Aplicacao.Programa",
