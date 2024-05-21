@@ -5,6 +5,13 @@
       "type": "java",
       "name": "Aplicacao",
       "request": "launch",
+      "mainClass": "Aplicacao",
+      "projectName": "codes-poo_69c4af57"
+    },
+    {
+      "type": "java",
+      "name": "Aplicacao",
+      "request": "launch",
       "mainClass": "exerHerAni.Programa.Aplicacao",
       "projectName": "ExerJava"
     },

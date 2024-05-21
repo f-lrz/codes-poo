@@ -1,10 +1,10 @@
-package exerHerAni.Entidades;
+package ExerAnimal.Entidades;
 
 public class Cachorro extends Animal{
     private int peso;
 
-    public Cachorro(String nome, int peso){
-        super(nome);
+    public Cachorro(String nome, int anodenasc, int peso){
+        super(nome, anodenasc);
         setPeso(peso);
     }
 
@@ -19,4 +19,9 @@ public class Cachorro extends Animal{
     public void emiSom(){
         System.out.println(getNome() + " faz auau!");
     }
+
+    /*@Override
+    public void imprime(){
+
+    }*/
 }

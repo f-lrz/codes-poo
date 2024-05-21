@@ -1,10 +1,10 @@
-package exerHerAni.Entidades;
+package ExerAnimal.Entidades;
 
 public class Gato extends Animal{
     private int altura;
 
-    public Gato(String nome, int altura){
-        super(nome);
+    public Gato(String nome, int anodenasc, int altura){
+        super(nome, anodenasc);
         setAltura(altura);
     }
 
