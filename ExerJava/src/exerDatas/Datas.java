@@ -47,7 +47,7 @@ public class Datas {
 	public static void tipoLocalDate() {
 		LocalDate d1 = LocalDate.now();
 		System.out.println(d1);
-		d1 = LocalDate.of(2024, 4, 10);
+		d1 = LocalDate.of(2024, 4, 10);x
 		
 		LocalDate d2 = LocalDate.of(2024, 4, 20);
 		
